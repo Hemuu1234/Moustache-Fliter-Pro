@@ -1,0 +1,16 @@
+
+h2 {
+    font-size: 25px !important;
+}
+.btn-info:hover {
+        background-color:redss;
+}
+canvas {
+    animation-name: Dev;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Dev {
+    from{box-shadow: 4px 4px 35px red;}
+    to{box-shadow: 4px 4px 35px aqua;}
+}
